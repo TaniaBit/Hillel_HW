@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+   color:aliceblue;
+}
+
+
+
+
+.navigation:hover{
+    font-size: 50px;
+    text-shadow: 2px 4px violet;
+    text-decoration: dotted;
+ 
+}
+
+.fish{
+font-weight: 300;
+font-size: medium;
+font-style: italic;
+margin: 20px 30px;
+color: aquamarine;
+text-align: left;
+
+}
+
+.fish1{
+    border: 10;
+    border-radius: 30;
+    font-stretch: narrower;
+    font-style:normal;
+    margin: 20px 30px;
+    color: blueviolet;
+    text-align: right;
+}
+
+
+
+
+.wrapper{
+    margin: 0 auto;
+    padding: 30px;
+}
+
