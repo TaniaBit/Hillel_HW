@@ -1,0 +1,148 @@
+
+.container{
+    max-width: 1440px;   
+    height: 1190px;   
+   background-color: #FBFBFB;   
+   margin: 0 auto;
+   font-family: CeraPro;
+   
+}
+
+
+.navigation_bar{ 
+    display: inline-block;     
+    width: 310px;  
+    vertical-align: top;
+    margin-top: 171px;
+    margin-left: 135px;
+    margin-right: 50px; 
+    background-color: #FBFBFB;    
+   
+}
+
+.nav_main{
+    display: inline-block;      
+    width: 310px;     
+    vertical-align:top;
+    background-color:#FBFBFB;
+
+    
+}
+
+.nav_list_title{
+    font-size: 18px;    
+    
+}
+
+.nav_item{
+    font-size: 15px;      
+    padding-top: 20px;
+    padding-left: 8px;    
+}
+
+.green{
+    color: #46A358;
+}
+
+.image_banner{
+    display: inline-block; 
+    width: 310px;   
+    margin-right: 50px;   
+    margin-top: 260px;
+    
+}
+
+.container_section{
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: top;
+    margin-top: 171px;    
+    width: 840px;    
+    background-color: #FBFBFB;
+    
+}
+
+.container_box{   
+    width: 840px;
+   
+}
+
+.box_item{
+    display: inline-block;
+    width: 258px;
+    height: 350px;
+    font-size: 16px;
+    padding-right: 33px;
+    padding-bottom: 70px;
+}
+
+.box_item_title{
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+
+.choiceandsort{
+    display: inline-block;
+    width: 838px;
+    height: 23px;
+    margin-bottom: 31px;
+}
+
+.choice{
+    display: inline-block;
+    margin-right: 400px;
+  
+}
+
+.choice_item{
+    margin-right: 10px;
+}
+
+.sort{
+    display: inline-block;
+}
+
+.price{
+    color:#46A358;
+    font-size: 18px;
+}
+
+
+.button_list{  
+    margin-top: 20px;  
+    text-align: right;
+    margin-right: 105px;
+    
+}
+
+.button{
+   display: inline-block;
+   width: 35px;
+   height: 35px;
+   background-color: #FBFBFB;
+   border: 1px solid lightgrey;
+   margin-right: 10px;
+
+}
+
+.but1{
+    background-color: #46A358;
+}
+
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    
+}
