@@ -1,0 +1,194 @@
+
+body{
+    background-color: lightgray;
+}
+
+.container{
+    max-width: 1440px; 
+    height: 1024px;
+    background-color: #FFFFFF;
+    font-family: CeraPro;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.wrapper{
+    display: flex;
+    width: 1202px;   
+    margin-top: 69px;
+    row-gap: 28px;
+    margin-bottom: 138px;    
+}
+
+.post_title{
+font-family: CeraPro;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 15px;
+}
+
+.post_title_descr{
+font-family: CeraPro;
+font-size: 14px;
+font-weight: 400;
+}
+
+.top_image_one{
+    width: 287px;
+}
+
+.top_image_two{
+    width: 289px;
+}
+
+.plants_top_desc{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 9px;
+    color: #3D3D3D;
+}
+
+.position{
+    margin-left: 119px;
+    margin-right: 119px;
+}
+
+
+.plants_top_title{
+    display: flex;
+    align-items:center;
+    justify-content:right;
+}
+
+.plants_top_item{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    align-content: start;
+    justify-content: center;
+}
+
+.plants_top_det{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.button_top{
+    background-color: #46A358;
+    width: 140px;
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8%;   
+}
+
+.blog_description{
+    width: 1202px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.plant_bottom{
+    width: 1202px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.plants_bottom_post{
+    display: flex;
+    flex-direction: column;        
+}
+
+.plants_bottom_post_time{
+    font-family: CeraPro;
+    font-size: 14px;
+    font-weight: 500;
+    color: #46A358;
+    margin-bottom: 4px;   
+}
+
+.green{
+    color: #46A358;
+    background-color: #FFFFFF;
+}
+
+.plants_bottom_post_item{
+    margin-left: 15px;
+    width: 242px;
+    margin-bottom: 4px;
+}
+
+.plants_bottom_post_description{
+    margin-top: 4px;
+    font-family: CeraPro;
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;  
+}
+
+.plants_bottom_image{
+    width: 268px;
+    height: 195px;
+    margin-bottom: 9px;
+}
+
+.plants_bottom_post_title{
+    font-family: CeraPro;
+    font-size: 20px;
+    font-weight: 700;
+    color:#3D3D3D;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.button_bottom{
+    margin-top: 9px;
+    font-family: CeraPro;
+    font-size: 14px;
+    font-weight: 500;
+    color:#3D3D3D;    
+}
+
+.button_name{
+    background-color: #FFFFFF;
+}
+
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;    
+}
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;    
+}
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Black.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;    
+}
+
