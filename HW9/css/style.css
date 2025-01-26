@@ -1,0 +1,230 @@
+
+body{
+    background-color: lightgray;
+}
+
+.container{
+    max-width: 1050px; 
+    height: 676px;
+    background-color: #FFFFFF;
+    margin: 0 auto;   
+
+}
+
+.wrapper{
+    display: flex;
+    gap: 385px;
+    margin-bottom: 31px;
+    
+}
+
+.plant_list_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    margin-left: 105px;
+    gap: 38px;
+    
+}
+
+.plant_item{
+    display: flex;
+    color: #3D3D3D;
+    font-family:CeraPro ;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: none;
+    flex-direction: column;
+    
+
+}
+
+.plant_item:hover{
+    color:  #46A358;
+    font-weight: 700;
+    border-bottom: 3px solid #46A358;
+    opacity: 1;
+      
+}
+
+
+
+
+ul{
+    list-style: none;
+}
+
+.plant_sort_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 170px; 
+    color: #3D3D3D;
+    font-family:CeraPro ;
+    font-size: 15px;
+    font-weight: 400;  
+
+}
+
+.plant_sort_it1{
+    margin-right: 3px;
+
+}
+
+.carts_list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 105px;
+    margin-right: 105px;
+  
+  
+}
+
+.carts_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    position: relative;
+    width: 258px;
+    height: 350px;
+}
+
+
+
+.cart_label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:26px;   
+    position: absolute;
+    width: 125px;
+    height: 35px;
+    top: 250px;
+    left: 66px;
+    opacity: 0;
+    
+}
+
+.sale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    color: #FFFFFF;    
+    font-family:CeraPro ;
+    font-size: 16px;
+    font-weight: 500; 
+    background-color: #46A358; 
+    width: 80px;
+    height: 29px;
+    position: absolute;
+    top: 14px;
+}
+
+.sale_price{
+    position: absolute;    
+    opacity: 0;
+    font-family:CeraPro ;
+    font-size: 18px;
+    font-weight: 400; 
+    color: #A5A5A5;  
+    text-decoration: line-through;
+    top: 316px;
+    left: 80px;
+    
+}
+
+.cart1:hover .cart_label{
+    opacity: 1; 
+    top: 250px;
+    left: 66px;   
+}
+
+.cart3:hover .sale{
+    opacity: 1;
+}
+
+.cart3:hover .sale_price{
+    opacity: 1;
+}
+
+
+
+.cart2:hover .cart_label{
+    opacity: 1; 
+    top: 250px;
+    left: 66px;   
+}
+
+.cart3:hover .cart_label{
+    opacity: 1; 
+    top: 250px;
+    right: 66px;   
+}
+
+
+.carts_item:hover{
+    border-top: 2px solid #46A358;
+}
+
+.carts_item_img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 31px;
+    right: 4px;
+    left: 4px;
+}
+
+
+
+.carts_item_desc{
+    color: #3D3D3D;
+    font-family:CeraPro ;
+    font-size: 16px;
+    font-weight: 400;  
+    margin-bottom: 6px;
+}
+
+.carts_item_price{
+    color: #46A358;    
+    font-family:CeraPro ;
+    font-size: 18px;
+    font-weight: 700;  
+}
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;    
+}
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;    
+}
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Black.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;    
+}
+

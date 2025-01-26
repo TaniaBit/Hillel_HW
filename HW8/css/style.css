@@ -8,8 +8,6 @@ body{
     height: 1024px;
     background-color: #FFFFFF;
     font-family: CeraPro;
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
 }
 
