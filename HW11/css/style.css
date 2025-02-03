@@ -1,0 +1,306 @@
+.body{
+    background-color: #ad2424;
+}
+
+.container{    
+    max-width: 1400px;
+    margin: 0 auto;    
+}
+
+.logoinfo_list{
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+}
+
+.wrapper{   
+    background-color: #FFFFFF;  
+  
+}
+
+.footer{
+    background-color: #FBFBFB;
+    height: 236px;
+     
+}
+
+.footer::after{
+    content: url(../svg/rectangle.svg);
+    display: flex;
+    justify-content: center;
+   
+}
+
+.top_blok{
+    background-color: #FBFBFB;
+    display: flex;     
+    justify-content: center;
+    width: 1200px;  
+    margin-top: 91px;
+    margin-left: 120px;
+    margin-right: 120px;  
+}
+
+.plants_list{
+    background-color: #FBFBFB;
+    display: flex;
+    gap: 61px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 25px;
+
+    
+}
+
+.plants_item_title{
+    font-family: CeraPro;
+    font-weight: 700;
+    font-size: 17px;
+    color: #3d3d3d;
+    margin-bottom: 9px;
+}
+
+.plants_item_desc{
+    font-family: CeraPro;
+    font-weight: 400;
+    font-size: 14px;
+    color: #727277;
+}
+
+.plants_item_img{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.newsletters_box{
+    display: flex;
+    flex-direction: column;
+    width: 354px;
+    height: 202px;
+    margin-left: 62px;
+    margin-right: 25px;
+}
+
+
+.newsletters_box_title{
+    font-family: CeraPro;
+    font-weight: 700;
+    font-size: 18px;
+    color: #3d3d3d;
+    margin-top: 37px;
+    margin-bottom: 25px;
+}
+
+.newsletters_box_form{
+    width: 354px;
+    height: 40px;
+    display: flex; 
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.newsletters_box_form_email{
+    width: 269px;
+    background-color: #FFFFFF;
+    color: #ACACAC;
+    font-family: CeraPro;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 6px  0 0 6px;
+    padding-left: 11px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+
+.newsletters_box_form_but{
+    background-color: #52C368;
+    color: #FFFFFF;
+    width: 85px;
+   border-radius: 0 6px 6px 0;
+    
+
+}
+
+.newsletters_box_desc{
+    font-family: CeraPro;
+    font-weight: 400;
+    font-size: 13px;
+    color: #727277;
+    margin-top: 18px;
+}
+
+
+.logoinfo{
+    display: flex;  
+    gap: 110px;   
+    
+}
+
+
+.logoinfo_list{
+    width: 1200px;
+    height: 88px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between; 
+    align-content: space-between;
+    align-items: center; 
+    
+
+}
+
+.logoinfo_img,.logoinfo_address,.logoinfo_phone,.logoinfo_email{
+    display: flex;
+    align-items: center;
+}
+
+.logoinfo_email{
+    gap:9px;
+}
+
+.logoinfo_phone{
+    gap: 8px; 
+    margin-right: 22px;   
+}
+
+.logoinfo_img{
+    margin-left: 23px;
+}
+
+.logoinfo_phone_desc, .logoinfo_email_desc, .logoinfo_address_desc{
+    font-family: CeraPro;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3d3d3d;
+}
+
+.footer_links{   
+    width: 1200px;   
+    display: flex; 
+    justify-content: center; 
+    margin-left: 120px;
+    margin-right: 120px;  
+
+   
+}
+
+.footer_links_list{ 
+    width: 976px;   
+    display: flex;  
+    justify-content:space-between;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 173px;
+}
+
+
+.footer_links_categories_caption,.social_media_links_caption,.info_pay_caption{
+    font-family: CeraPro;
+    font-weight: 700;
+    font-size: 18px;
+    color: #3d3d3d;
+    margin-bottom: 10px;
+}
+
+.footer_links_myaccount_link, .footer_links_helpguide_link, .footer_links_categories_link, .signature_title{
+    font-family: CeraPro;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3d3d3d;
+    
+}
+
+
+.footer_links_helpguide_item, .footer_links_myaccount_item, .footer_links_categories_item{
+    margin-bottom: 10px;
+}
+
+.social_media_links{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.social_media_links_list{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 33px;
+    
+}
+
+.social_media_links_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #46A35833;
+  
+ 
+}
+
+.social_media{
+    width: 224px;
+    height: 154px;
+    margin-top: 33px;
+    margin-bottom: 40px;
+ 
+    margin-right: 155px;
+
+}
+
+.info_pay_image{
+    width: 224px;
+    height: 26px;
+    margin-top: 13px;
+}
+
+
+.signature{
+    height: 30px;
+display: flex;
+justify-content: center;
+margin-top: 6px;
+}
+
+
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;    
+}
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;    
+}
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(../fonts/CeraPro/CeraPro-Black.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;    
+}
+
